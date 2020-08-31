@@ -79,10 +79,11 @@ header ul li a{
 
 #menu-lateral{
     width: 230px;
-    /* border: solid 2px blue; */
+    float: left;
+    display: block;
 }
 
-#menu-lateral h2{
+h2{
     display: flex;
     height: 40px;
     align-items: center;
@@ -138,5 +139,68 @@ header ul li a{
     font-size: 13pt;
 }
 
+.noticias{
+    margin-left: 30px;
+    display: block;
+    width: 46%;
+}
+
+.noticias img{
+    width: 100%;
+}
+
+h4{
+    margin: 10px 0;
+    display: inline-flex;
+    height: 30px;
+    align-items: center;
+    background-color: rgb(184, 28, 28);
+}
+
+.lista-noticias{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: block;
+    width: 46%;
+}
+
+.lista-noticias img{
+    width: 100%;
+}
+
+section{
+    width: 71%;
+    float: right;
+    /* border: solid 3px red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lista-noticias li{
+    padding: 15px 10px;
+    display: flex;
+    width: 100%;
+}
+
+.lista-noticias img{
+    width: 35%;
+}
+
+.text-notice{
+    display: block;
+}
+
+.text-notice a{
+    font-size: 10pt;
+    color: dodgerblue;
+    display: block;
+    margin-left: 30px;
+}
+
+.text-notice p{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 /* --------- Container --------- */
 
